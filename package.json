@@ -1,11 +1,11 @@
 {
-  "name": "angular.io-example",
+  "name": "helloworld",
   "version": "0.0.0",
   "description": "Example project from an angular.io guide.",
   "license": "MIT",
   "scripts": {
     "ng": "ng",
-    "start": "ng serve",
+    "start": "http-server dist/helloworld/ --no-dotfiles",
     "build": "ng build",
     "watch": "ng build --watch --configuration development",
     "test": "ng test",
